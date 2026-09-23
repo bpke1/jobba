@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:tt="https://teamtailor.com/locations">
+  <channel>
+    <title>Ferd</title>
+    <description/>
+    <link>https://ferd.teamtailor.com/jobs</link>
+    <item>
+      <title>Ferd Digital Internship</title>
+      <description>&lt;p&gt;&lt;span&gt;Ferd er et familieeid norsk investeringsselskap med en visjon om å «skape varige verdier og sette tydelige spor». Selskapet, som eies av Johan H. Andresen med familie, fokuserer på verdiskapende eierskap i virksomheter og finansielle investeringer. Ferd omfatter fem forretningsområder, og Ferd Digital er en nyopprettet enhet på konsernnivå som jobber på tvers av alle disse.&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;span&gt;Ferd Digital har ansvar for å digitalisere både Ferd og selskapene Ferd eier og investerer i. Vi sitter sentralt i konsernet og jobber på tvers av alle forretningsområdene Ferd Capital, Ferd Eiendom, Ferd Ekstern Forvaltning, Ferd Impact Investing og Ferd Sosiale Entreprenører. Akkurat nå bygger vi Ferds dataplattform for analyse, en plattform for AI og generative språkmodeller, automatiseringer og et nytt CRM-system. Dette er en av Ferds viktigste strategiske satsinger: kapabiliteten vi bygger nå skal sikre at Ferd forblir relevant og fortsetter å lykkes i årene som kommer.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p class="paragraph"&gt;&lt;span&gt;&lt;strong&gt;Om internshipet&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;Som intern i Ferd Digital blir du med fra starten i en nyopprettet enhet, og får være med på å forme både retningen og løsningene. Du får ditt eget prosjekt med konkrete leveranser gjennom perioden, og du jobber tett med leder for Ferd Digital, som følger deg opp som mentor. Vi ser etter deg som kan lede eget arbeid. Vi kikker deg ikke over skulderen, men hjelp og veiledning er alltid tilgjengelig når du trenger det.&lt;/span&gt;&lt;/p&gt;&lt;p class="paragraph"&gt;&lt;span&gt;Rollen gir uvanlig god tilgang til hele Ferd. Du vil jobbe direkte med seniorpersoner i alle forretningsområdene for å forstå behovene deres, og du deltar på de samme aktivitetene som våre ansatte: teammøter, lunch-and-learns og besøk hos porteføljeselskaper.&lt;/span&gt;&lt;/p&gt;&lt;p class="paragraph"&gt;&lt;span&gt;I løpet av internshipet vil du blant annet ha bygget datapipelines i Databricks, jobbet med tilgangsstyring i Entra ID, konfigurert Azure, laget dashboards og visualiseringer, og brukt notebooks til avansert analyse. Målet er å gi Ferds investeringsteam best mulig informasjonsgrunnlag når beslutningene tas.&lt;/span&gt;&lt;/p&gt;&lt;p class="paragraph"&gt;&lt;span&gt;Internshipet varer i utgangspunktet i ca. 5–6 måneder, med oppstart så snart som mulig.&lt;/span&gt;&lt;/p&gt;&lt;p class="paragraph"&gt;&lt;/p&gt;&lt;p class="paragraph"&gt;&lt;span&gt;&lt;strong&gt;Din mentor&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;Internshipet ledes av Christopher «Chris» Conradi, leder for Ferd Digital. Chris var tidligere Chief Digital Officer i FSN Capital, hvor han bygde den AI-drevne dataplattformen «Core» og ledet digital verdiskaping på tvers av 29 porteføljeselskaper. Et arbeid han ble kåret til CDO of the Year for. Før det etablerte og ledet han Google Cloud i Norge. Han er fortsatt hands-on med kode, og brenner for å bygge både teknologi og kompetanse. Chris er akkurat tilbake fra et opphold i Abu Dhabi hvor han jobbet i MGX, som er verdens største AI-investeringsselskap og sitter på eiersiden til blant annet Anthropix, OpenAI, SpaceX, Binance og TikTok.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p class="paragraph"&gt;&lt;span&gt;&lt;strong&gt;Arbeidsoppgaver&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p class="paragraph"&gt;&lt;span&gt;&lt;strong&gt;Behovskartlegging&lt;/strong&gt;: Snakke med og intervjue folk i hele bredden av Ferd for å forstå hvilken informasjon de trenger, kartlegge hvilke data vi faktisk har tilgang til, og finne ut hvordan vi kobler de to sammen. Dette er kjernen i rollen.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class="paragraph"&gt;&lt;span&gt;&lt;strong&gt;Visualisering og innsikt&lt;/strong&gt;: Bygge rike dashboards og visualiseringer med drilldowns, slik at kollegaer selv kan utforske dataene og finne svarene de trenger.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class="paragraph"&gt;&lt;span&gt;&lt;strong&gt;Databricks&lt;/strong&gt;: Være med fra starten når Ferd nå implementerer Databricks som dataplattform: bygge datapipelines og datamodeller, og skrive SQL som gir bedre innsikt.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class="paragraph"&gt;&lt;span&gt;&lt;strong&gt;AI-assistert utvikling&lt;/strong&gt;: Bruke generative AI-verktøy aktivt til å utvikle, teste og dokumentere løsninger. Du styrer modellen, modellen skriver mye av koden.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class="paragraph"&gt;&lt;span&gt;&lt;strong&gt;Automatisering&lt;/strong&gt;: Identifisere manuelle prosesser i konsernet og bygge automatiseringer som fjerner dem.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class="paragraph"&gt;&lt;span&gt;&lt;strong&gt;Digitalisering i konsernet&lt;/strong&gt;: Bidra på øvrige prosjekter i Ferd Digital, som AI-plattform, Azure og Entra ID og CRM, etter interesse og behov.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p class="paragraph"&gt;&lt;/p&gt;&lt;p class="paragraph"&gt;&lt;span&gt;&lt;strong&gt;Hvem ser vi etter:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p class="paragraph"&gt;&lt;span&gt;Du er i gang med en mastergrad eller er i siste året av en bachelorgrad innen informatikk, datateknologi, data science, industriell økonomi eller lignende med gode akademiske resultater.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class="paragraph"&gt;&lt;span&gt;Du kan vise hva du kan gjennom sideprosjekter, GitHub, hackathons eller annet du har bygget. Tidligere arbeidserfaring er ikke et krav.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class="paragraph"&gt;&lt;span&gt;Du behersker SQL og Python.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class="paragraph"&gt;&lt;span&gt;Du har brukt, eller er ivrig etter å bruke, agentiske kodeverktøy i terminalen, som Claude Code eller Codex. Erfaring med Databricks, Azure eller Entra ID er en fordel, men ikke et krav.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class="paragraph"&gt;&lt;span&gt;Du har god forståelse for hvordan data og teknologi skaper verdi i en virksomhet, og sterke analytiske ferdigheter.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class="paragraph"&gt;&lt;span&gt;Du kommuniserer godt, både skriftlig og muntlig, på engelsk eller et skandinavisk språk.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p class="paragraph"&gt;&lt;span&gt;&lt;strong&gt;Personlige egenskaper vi setter pris på:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p class="paragraph"&gt;&lt;span&gt;Lagspiller med evne til å bygge og utvikle relasjoner og tillit, internt og eksternt.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class="paragraph"&gt;&lt;span&gt;Utadvendt og trygg i møte med nye mennesker. Du liker å oppsøke kollegaer, stille spørsmål og finne ut hva de faktisk trenger. Mye av rollen handler om å samarbeide med folk i alle deler av Ferd.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class="paragraph"&gt;&lt;span&gt;Nysgjerrig, initiativrik og selvgående. Du trives med ansvar og med å finne veien selv.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class="paragraph"&gt;&lt;span&gt;Høy grad av integritet og profesjonalitet.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class="paragraph"&gt;&lt;span&gt;Du identifiserer deg med Ferds verdier: troverdighet, eventyrlyst, lagspill og langsiktighet.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p class="paragraph"&gt;&lt;span&gt;&lt;strong&gt;Søknadsfrist:&lt;/strong&gt; Kandidater blir kontaktet fortløpende.&lt;/span&gt;&lt;/p&gt;&lt;p class="paragraph"&gt;&lt;span&gt;&lt;strong&gt;Oppstart:&lt;/strong&gt; Så snart som mulig, høsten 2026.&lt;/span&gt;&lt;/p&gt;&lt;p class="paragraph"&gt;&lt;span&gt;Internshipet er betalt og foregår fra vårt kontor i Oslo.&lt;/span&gt;&lt;/p&gt;</description>
+      <pubDate>Tue, 08 Sep 2026 19:07:00 +0200</pubDate>
+      <link>https://ferd.teamtailor.com/jobs/8344301-ferd-digital-internship</link>
+      <remoteStatus>none</remoteStatus>
+      <guid>a23bdfdf-e5b7-49d8-8923-e77f96224a6f</guid>
+      <tt:locations>
+        <tt:location>
+          <tt:name>Oslo</tt:name>
+          <tt:address>Dronning Mauds gate 10</tt:address>
+          <tt:zip>0250</tt:zip>
+          <tt:city>Oslo</tt:city>
+          <tt:country>Norway</tt:country>
+        </tt:location>
+      </tt:locations>
+      <tt:department>Digital</tt:department>
+      <tt:role>Intern Ferd Digital</tt:role>
+    </item>
+    <item>
+      <title>Ferd - Open position</title>
+      <description>&lt;p&gt;&lt;span&gt;Ferd is a Norwegian, family-owned investment company with a vision to "create enduring value and leave clear footprints". The group focuses on value-creating ownership of businesses and financial investments, and is owned by Johan H. Andresen and family. Our business includes active ownership and corporate development, listed equities, real estate development, external managers, impact investing and social entrepreneurship.&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;span&gt;Want to work for us? We encourage you to keep an eye on our open positions and apply directly for any position that suits you on &lt;/span&gt;&lt;a target="_blank" href="https://ferd.no/en/contact/work-at-ferd/"&gt;&lt;span&gt;this page&lt;/span&gt;&lt;/a&gt;&lt;span&gt;. You can also submit an open application below. We look forward to hearing from you!&lt;/span&gt;&lt;/p&gt;</description>
+      <pubDate>Mon, 31 Aug 2026 18:02:18 +0200</pubDate>
+      <link>https://ferd.teamtailor.com/jobs/8293879-ferd-open-position</link>
+      <remoteStatus>none</remoteStatus>
+      <guid>f3716c4f-19b9-4bbe-93f4-c8e55942ce35</guid>
+      <tt:locations>
+        <tt:location>
+          <tt:name>Oslo</tt:name>
+          <tt:address>Dronning Mauds gate 10</tt:address>
+          <tt:zip>0250</tt:zip>
+          <tt:city>Oslo</tt:city>
+          <tt:country>Norway</tt:country>
+        </tt:location>
+      </tt:locations>
+      <tt:department>Åpen søknad</tt:department>
+      <tt:role/>
+    </item>
+    <item>
+      <title>Åpen søknad</title>
+      <description>&lt;p&gt;&lt;em&gt;Ferd er et familieeid norsk investeringsselskap med en visjon om å «skape varige verdier og sette tydelige spor». Konsernet satser på verdiskapende eierskap i virksomheter og finansielle investeringer og eies av Johan H. Andresen med familie. Vår virksomhet inkluderer aktivt eierskap og selskapsutvikling, børsnoterte aksjer, eiendomsutvikling, eksterne forvaltere, impact-investeringer og sosialt entreprenørskap.&lt;/em&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;Vil du jobbe for oss? Vi oppfordrer til å følge med på våre utlyste stillinger og søke direkte på disse om du finner en stilling som passer deg på&lt;a href="https://ferd.no/kontakt/ledige-stillinger/" target="_blank"&gt; denne siden&lt;/a&gt;. Det er også mulig å legg igjen en åpen søknad under. Vi hører fra deg!&lt;/p&gt;</description>
+      <pubDate>Tue, 04 Feb 2025 12:35:09 +0100</pubDate>
+      <link>https://ferd.teamtailor.com/jobs/5513797-apen-soknad</link>
+      <remoteStatus>none</remoteStatus>
+      <guid>c36b4e02-527b-436a-8482-7fe66a429e88</guid>
+      <tt:locations>
+        <tt:location>
+          <tt:name>Oslo</tt:name>
+          <tt:address>Dronning Mauds gate 10</tt:address>
+          <tt:zip>0250</tt:zip>
+          <tt:city>Oslo</tt:city>
+          <tt:country>Norway</tt:country>
+        </tt:location>
+      </tt:locations>
+      <tt:department>Åpen søknad</tt:department>
+      <tt:role/>
+    </item>
+  </channel>
+</rss>

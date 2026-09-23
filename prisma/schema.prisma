@@ -1,0 +1,174 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+enum SourceType {
+  FINN_SEARCH // config: { query: string, location?: string, pages?: number }
+  TEAMTAILOR // config: { slug: string } -> https://<slug>.teamtailor.com/jobs.rss
+  CAREER_PAGE // config: { url: string, linkPattern: string }
+  NAV_SEARCH // config: { query: string, county?: string } -> arbeidsplassen.nav.no
+  WEBCRUITER // config: { tenant: string } -> candidate.webcruiter.com company search
+  PHENOM // config: { url: string } -> a Phenom "search-results" page (BCG and others)
+  EMAIL_ALERT // job-alert e-mails (LinkedIn) read from the inbox
+  MANUAL // jobs added by URL or imported from the local application folders
+}
+
+enum JobStatus {
+  NY // shows up in "Nye utlysninger"
+  FILTRERT // scored too low; hidden unless "vis filtrert" is on
+  INTERESSANT
+  UNDER_ARBEID
+  SENDT
+  INTERVJU
+  TILBUD
+  AVSLAG
+  IKKE_AKTUELL
+}
+
+enum JobType {
+  DELTID_STUDENT
+  INTERNSHIP
+  GRADUATE
+  FAST
+  ANNET
+}
+
+enum Category {
+  VC
+  PE
+  MA
+  INVESTERINGSSELSKAP
+  IB_ER
+  FORVALTNING
+  EIENDOM
+  CORP_FIN
+  CONTROLLER
+  LEDER // CEO/CFO/daglig leder: deliberate long-shot applications
+  ANNET
+}
+
+enum EventType {
+  STATUS
+  EMAIL
+  NOTE
+  CALL
+}
+
+enum EmailClass {
+  BEKREFTELSE
+  INTERVJU
+  AVSLAG
+  TILBUD
+  FORESPORSEL
+  ANNET
+}
+
+model Source {
+  id        String     @id @default(cuid())
+  name      String
+  type      SourceType
+  config    Json       @default("{}")
+  enabled   Boolean    @default(true)
+  lastRunAt DateTime?
+  lastError String?
+  lastFound Int?
+  createdAt DateTime   @default(now())
+  jobs      Job[]
+}
+
+model Job {
+  id         String  @id @default(cuid())
+  sourceId   String?
+  source     Source? @relation(fields: [sourceId], references: [id], onDelete: SetNull)
+  url        String  @unique
+  externalId String?
+  // lower-cased company|title, so the same ad reposted under a new URL is not "new" again
+  dedupKey   String
+
+  title          String
+  company        String
+  description    String    @default("")
+  streetAddress  String?
+  postalCode     String?
+  city           String?
+  country        String?
+  remote         String?
+  employmentType String?
+  deadline       DateTime?
+  deadlineText   String?
+  datePosted     DateTime?
+  // When the ad was published or last changed at the source (falls back to when we found it); drives "Nyest"
+  postedAt       DateTime  @default(now())
+  contactName    String?
+  contactTitle   String?
+  contactPhone   String?
+  contactEmail   String?
+  logoUrl        String?
+  raw            Json?
+
+  jobType     JobType?
+  category    Category?
+  score       Int?
+  scoreReason String?
+  scoredAt    DateTime?
+
+  status       JobStatus @default(NY)
+  appliedAt    DateTime?
+  channel      String?
+  nextStep     String?
+  nextStepDate DateTime?
+  notes        String?
+  localFolder  String?
+
+  firstSeenAt DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  events Event[]
+  emails Email[]
+
+  @@index([dedupKey])
+  @@index([status, score])
+  @@index([status, postedAt])
+}
+
+model Event {
+  id    String    @id @default(cuid())
+  jobId String
+  job   Job       @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  type  EventType
+  text  String
+  at    DateTime  @default(now())
+
+  @@index([jobId, at])
+}
+
+model Email {
+  id              String     @id @default(cuid())
+  messageId       String     @unique
+  uid             Int
+  from            String
+  subject         String
+  receivedAt      DateTime
+  snippet         String
+  classification  EmailClass
+  confidence      Float?
+  suggestedStatus JobStatus?
+  jobId           String?
+  job             Job?       @relation(fields: [jobId], references: [id], onDelete: SetNull)
+  handled         Boolean    @default(false)
+  createdAt       DateTime   @default(now())
+
+  @@index([jobId])
+  @@index([handled])
+}
+
+model Setting {
+  key   String @id
+  value String
+}

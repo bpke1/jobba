@@ -1,0 +1,11 @@
+node_modules
+.next
+.env
+.env*.local
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+
+# Personal data: stays on this machine
+profile.local.md
+data/*.local.json

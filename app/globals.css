@@ -1,0 +1,12 @@
+@import "tailwindcss";
+/* tests/fixtures holds saved finn/Teamtailor pages whose own class names break the CSS build. */
+@source not "../tests";
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: #fafaf9;
+  color: #1c1917;
+}

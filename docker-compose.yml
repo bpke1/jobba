@@ -1,0 +1,16 @@
+# Local dev database, on 5433 so it doesn't clash with another Postgres on the default port.
+services:
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: jobba
+      POSTGRES_PASSWORD: jobba
+      POSTGRES_DB: jobba
+    ports:
+      - "5433:5432"
+    volumes:
+      - jobba_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  jobba_postgres_data:

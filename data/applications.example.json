@@ -1,0 +1,20 @@
+[
+  {
+    "folder": "Example Capital",
+    "company": "Example Capital AS",
+    "title": "Student Analyst (part-time)",
+    "url": "https://www.finn.no/job/ad/000000000",
+    "adFile": "utlysning.md",
+    "status": "SENDT",
+    "jobType": "DELTID_STUDENT",
+    "category": "PE",
+    "appliedAt": "2026-09-01",
+    "deadline": "2026-09-15",
+    "channel": "Finn",
+    "contactName": "Kari Nordmann",
+    "contactPhone": "+47 000 00 000",
+    "nextStep": "Ring for oppfølging",
+    "nextStepDate": "2026-09-12",
+    "notes": "Ringte før innsending."
+  }
+]
